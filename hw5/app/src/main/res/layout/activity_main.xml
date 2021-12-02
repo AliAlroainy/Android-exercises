@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="btn1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="btn2"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="btn3"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="btn4"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="btn5"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="btn6"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="btn7"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="btn8"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="btn9"
+        app:backgroundTint="#F44336" />
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_alignLeft="@+id/btn1"
+        android:text="btn11"
+        app:backgroundTint="#E91E63" />
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2"
+        android:layout_toEndOf="@+id/btn2"
+        android:layout_toRightOf="@+id/btn2"
+        android:text="btn12"
+        app:backgroundTint="#2196F3" />
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn11"
+        android:text="btn13"
+        app:backgroundTint="#2196F3" />
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn5"
+        android:layout_centerHorizontal="true"
+        android:text="btn14"
+        app:backgroundTint="#4CAF50" />
+    <Button
+        android:id="@+id/btn15"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:text="btn15"
+        app:backgroundTint="#4CAF50" />
+    <Button
+        android:id="@+id/btn16"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn14"
+        android:layout_above="@+id/btn4"
+        android:text="btn16"
+        app:backgroundTint="#4CAF50" />
+    <Button
+        android:id="@+id/btn17"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn15"
+        android:layout_toStartOf="@+id/btn15"
+        android:layout_toLeftOf="@+id/btn15"
+        android:text="btn17"
+        app:backgroundTint="#4CAF50"
+        />
+    <Button
+        android:id="@+id/btn18"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn14"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="btn18"
+        app:backgroundTint="#4CAF50" />
+    <Button
+        android:id="@+id/btn19"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn15"
+        android:layout_alignTop="@+id/btn17"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="btn19"
+        app:backgroundTint="#4CAF50" />
+    <Button
+        android:id="@+id/btn20"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn19"
+        android:layout_alignEnd="@+id/btn15"
+        android:layout_alignRight="@+id/btn15"
+        android:layout_alignParentRight="true"
+        android:text="btn20"
+        app:backgroundTint="#4CAF50"
+        />
+</RelativeLayout>

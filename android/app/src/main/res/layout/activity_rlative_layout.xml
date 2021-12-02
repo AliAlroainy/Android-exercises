@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RlativeLayout">
+
+    <ImageView
+        android:id="@+id/userB"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/userb" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/userB"
+        android:drawableLeft="@mipmap/userB_foreground"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@mipmap/userB_foreground"
+        android:ems="10"
+        android:hint="full name"
+        android:layout_below="@id/editTextTextPersonName3"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:drawableLeft="@mipmap/kB_foreground"
+        android:ems="10"
+        android:hint="password"
+        android:layout_below="@id/editTextTextPersonName4"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:id="@+id/g1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextPersonName5"
+        android:background="#D5C6C6"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g1"
+        android:layout_alignEnd="@id/g1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:text="clear"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="register"
+            app:backgroundTint="#2196F3" />
+    </LinearLayout>
+</RelativeLayout>
